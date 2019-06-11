@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:cardCornerRadius="17dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            app:cardElevation="15dp"
+            >
+            
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/myprofile_mrl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/RippleStylePrimary"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#FCFBFB"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="5.5"
+                        android:src="@drawable/myprofile"
+                        android:padding="12dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="Ahmed Talal"
+                        android:layout_weight="1"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:fontFamily="monospace"
+                        android:background="#28867E"
+                        android:textColor="#fff"
+                        />
+
+                </LinearLayout>
+
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:cardCornerRadius="17dp"
+            app:cardElevation="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            >
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/bill_mrl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/RippleStylePrimary"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#FCFBFB"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="5.5"
+                        android:src="@drawable/billgates"
+                        android:padding="1dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="Bill Gates"
+                        android:layout_weight="1"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:fontFamily="monospace"
+                        android:background="#28867E"
+                        android:textColor="#fff"
+                        />
+
+                </LinearLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:cardCornerRadius="17dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            app:cardElevation="15dp"
+            >
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/mark_mrl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/RippleStylePrimary"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#FCFBFB"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="5.5"
+                        android:src="@drawable/markzukerberge"
+                        android:padding="11dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="Mark Zukerberge"
+                        android:layout_weight="1"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:fontFamily="monospace"
+                        android:background="#28867E"
+                        android:textColor="#fff"
+                        />
+
+                </LinearLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:cardCornerRadius="17dp"
+            app:cardElevation="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            >
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/steve_mrl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/RippleStylePrimary"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#FCFBFB"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="5.5"
+                        android:src="@drawable/stevejobs"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="Steve Jobs"
+                        android:layout_weight="1"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:fontFamily="monospace"
+                        android:background="#28867E"
+                        android:textColor="#fff"
+                        />
+
+                </LinearLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

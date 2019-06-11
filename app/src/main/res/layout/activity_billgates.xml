@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Billgates"
+    android:background="#F7F7F7"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="#2381c5"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bill"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginRight="140dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bill Gates"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="125dp"
+        android:textColor="#fff"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_layout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="210dp"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Photos"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:alpha="5"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:layout_marginTop="35dp"
+                android:textColor="#B8B6B6"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="500"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:layout_marginTop="12dp"
+                android:textColor="#18578A"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="followers"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:alpha="5"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:layout_marginTop="35dp"
+                android:textColor="#B8B6B6"
+                />
+
+            <TextView
+                android:id="@+id/text_Follow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12500"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:layout_marginTop="12dp"
+                android:textColor="#18578A"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="following"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:alpha="5"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:layout_marginTop="35dp"
+                android:textColor="#B8B6B6"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="350"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:layout_marginTop="12dp"
+                android:textColor="#18578A"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F7F7F7"
+        android:layout_marginTop="335dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="9dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="billgates@gmail.com"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="#5A5A5A"
+                android:fontFamily="monospace"
+                android:drawableLeft="@drawable/ic_email"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="43dp"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="01165418129"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="#5A5A5A"
+                android:fontFamily="monospace"
+                android:drawableLeft="@drawable/ic_mobile_phone"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="93dp"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add to group"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="#5A5A5A"
+                android:fontFamily="monospace"
+                android:drawableLeft="@drawable/ic_group"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="93dp"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="show all comments"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="#5A5A5A"
+                android:fontFamily="monospace"
+                android:drawableLeft="@drawable/ic_chat"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="60dp"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/btnbill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:text="follow me"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                android:textColor="#fff"
+                android:background="@drawable/rounded_button"
+                android:padding="18dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
